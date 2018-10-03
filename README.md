@@ -5,7 +5,7 @@ PyCryptodome for AWS Lambda
 - Download and install Docker
 - Clone this repo
 - Run `docker build . -t ami-pycrypto` in the root of the repo
-- Then `docker run -ti -v $(pwd):/out -w /out ami-pycrypto'
+- Then `docker run -ti -v $(pwd):/out -w /out ami-pycrypto`
 
 After a few seconds the out folder should be populated with the saved pip package, ready for use in your AWS Lambda
 
